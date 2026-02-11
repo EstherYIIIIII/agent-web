@@ -4,7 +4,7 @@
 
 A beautifully designed navigator for AI agent platforms, services, and communities — inspired by the retro-academic aesthetic of Anthropic/Claude.
 
-![Preview](docs/preview.jpg)
+![Preview](docs/preview.png)
 
 🌐 **Live:** [agent-web-gamma.vercel.app](https://agent-web-gamma.vercel.app/)
 
