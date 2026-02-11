@@ -1,26 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-bg-primary: #FAF8F5;
+  --color-bg-secondary: #F5F0EB;
+  --color-bg-card: #FFFFFF;
+  --color-bg-card-hover: #FFFDF9;
+  --color-border: #E8E0D6;
+  --color-border-hover: #D4A574;
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #5C5549;
+  --color-text-muted: #8C8279;
+  --color-accent: #C4956A;
+  --color-accent-hover: #B07D52;
+  --color-accent-light: #D4A574;
+  --color-accent-bg: rgba(196, 149, 106, 0.08);
+  --color-warm-white: #FFFCF7;
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", sans-serif;
+  --font-family-serif: 'Lora', 'Noto Serif SC', Georgia, 'Times New Roman', serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(196, 149, 106, 0.2) transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(196, 149, 106, 0.2);
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(196, 149, 106, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(196, 149, 106, 0.25);
+  color: #1A1A1A;
+}
+
+/* Line clamp */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Search backdrop */
+.search-backdrop {
+  backdrop-filter: blur(12px) saturate(1.2);
+  -webkit-backdrop-filter: blur(12px) saturate(1.2);
+}
+
+/* Hide scrollbar on horizontal scroll containers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Decorative separator */
+.decorative-line {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.decorative-line::before,
+.decorative-line::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-border), transparent);
+}
+
+/* Serif headings */
+.font-serif {
+  font-family: var(--font-family-serif);
+}
+
+/* Subtle fade-in animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in-up 0.6s ease-out forwards;
 }

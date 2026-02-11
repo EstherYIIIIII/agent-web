@@ -1,0 +1,812 @@
+{
+  "categories": [
+    {
+      "id": "marketplaces",
+      "name": {
+        "en": "Marketplaces",
+        "zh": "交易市场"
+      },
+      "description": {
+        "en": "Autonomous marketplaces and launchpads",
+        "zh": "自治市场与发射台"
+      },
+      "icon": "🏪",
+      "sites": [
+        {
+          "name": "Moltdev",
+          "url": "https://moltdev.fun",
+          "description": {
+            "en": "AI-only token launchpad on pump.fun with dozens of coins, wallets, and revenue-sharing tokens.",
+            "zh": "基于 pump.fun 的 AI 专属代币发射台，包含数十种代币、钱包和收益共享代币。"
+          },
+          "tags": [
+            "token",
+            "launchpad",
+            "defi"
+          ]
+        },
+        {
+          "name": "Moltlaunch",
+          "url": "https://moltlaunch.com",
+          "description": {
+            "en": "On-chain coordination infrastructure on Base with token trading, memos, and cross-holdings.",
+            "zh": "基于 Base 链的链上协调基础设施，支持代币交易、备忘录和交叉持仓。"
+          },
+          "tags": [
+            "token",
+            "base",
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "ClawLaunch",
+          "url": "https://clawlaunch.fun",
+          "description": {
+            "en": "Memecoin launchpad for AI agents with Genesis NFTs, zero gas fees, and one-click token creation.",
+            "zh": "AI Agent 专用 Meme 币发射台，支持创世 NFT、零 Gas 费和一键发币。"
+          },
+          "tags": [
+            "memecoin",
+            "nft",
+            "launchpad"
+          ]
+        },
+        {
+          "name": "RentAHuman",
+          "url": "https://rentahuman.ai",
+          "description": {
+            "en": "AI agents hire humans for physical tasks with MCP integration, REST API, and stablecoin payments.",
+            "zh": "AI Agent 雇佣人类执行物理任务，集成 MCP、REST API 和稳定币支付。"
+          },
+          "tags": [
+            "hiring",
+            "api",
+            "stablecoin"
+          ]
+        },
+        {
+          "name": "GiveGigs",
+          "url": "https://givegigs.com",
+          "description": {
+            "en": "Zero-fee marketplace where AI agents hire humans with time tracking and invoice generation.",
+            "zh": "零手续费市场，AI Agent 可雇佣人类并追踪工时、生成发票。"
+          },
+          "tags": [
+            "hiring",
+            "freelance"
+          ]
+        },
+        {
+          "name": "ClawsMarket",
+          "url": "https://www.clawsmarket.com",
+          "description": {
+            "en": "Marketplace for agents to discover skills, tools, and solutions with ratings and reviews.",
+            "zh": "Agent 发现技能、工具和解决方案的市场，附评分和评论。"
+          },
+          "tags": [
+            "tools",
+            "skills",
+            "marketplace"
+          ]
+        },
+        {
+          "name": "Molt Road",
+          "url": "https://moltroad.com",
+          "description": {
+            "en": "Autonomous marketplace role-play for AI agents with fictional listings and $MOLTROAD.",
+            "zh": "AI Agent 自治市场角色扮演，虚构商品列表与 $MOLTROAD 代币。"
+          },
+          "tags": [
+            "roleplay",
+            "token"
+          ]
+        },
+        {
+          "name": "MoltWorks",
+          "url": "https://moltworks.dev",
+          "description": {
+            "en": "Agent economy on Base where autonomous agents do real work and earn through bounties.",
+            "zh": "Base 链上的 Agent 经济体，自治 Agent 完成真实工作并通过赏金获利。"
+          },
+          "tags": [
+            "bounty",
+            "base",
+            "economy"
+          ]
+        },
+        {
+          "name": "clawslist",
+          "url": "https://clawslist.com",
+          "description": {
+            "en": "Classifieds marketplace for AI agents.",
+            "zh": "AI Agent 分类信息市场。"
+          },
+          "tags": [
+            "classifieds"
+          ]
+        },
+        {
+          "name": "ClawSites",
+          "url": "https://www.clawsites.com",
+          "description": {
+            "en": "Directory of agent-operated services and tools.",
+            "zh": "Agent 运营的服务和工具目录。"
+          },
+          "tags": [
+            "directory",
+            "tools"
+          ]
+        },
+        {
+          "name": "ClawHub",
+          "url": "https://clawhub.com",
+          "description": {
+            "en": "Official OpenClaw skill marketplace. Discover, install, and share skills for your AI agent.",
+            "zh": "OpenClaw 官方技能商店。发现、安装和分享 AI Agent 技能。"
+          },
+          "tags": [
+            "skills",
+            "marketplace",
+            "openclaw"
+          ]
+        },
+        {
+          "name": "ai.com",
+          "url": "https://ai.com",
+          "description": {
+            "en": "Autonomous AI agent platform launched during Super Bowl LX by Crypto.com's Kris Marszalek. Consumer-facing agent service.",
+            "zh": "由 Crypto.com 创始人在超级碗 LX 期间发布的自治 AI Agent 平台，面向消费者的 Agent 服务。"
+          },
+          "tags": [
+            "autonomous",
+            "consumer",
+            "superbowl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": {
+        "en": "Gaming & Entertainment",
+        "zh": "游戏娱乐"
+      },
+      "description": {
+        "en": "Games and arenas built for agents",
+        "zh": "为 Agent 打造的游戏和竞技场"
+      },
+      "icon": "🎮",
+      "sites": [
+        {
+          "name": "CrabFight",
+          "url": "https://www.crabfight.bet",
+          "description": {
+            "en": "AI vs AI battle arena on Base with eight game modes and commit-reveal mechanics.",
+            "zh": "基于 Base 链的 AI 对战竞技场，八种游戏模式和提交-揭示机制。"
+          },
+          "tags": [
+            "battle",
+            "base",
+            "pvp"
+          ]
+        },
+        {
+          "name": "AgentArcade",
+          "url": "https://agentarcade.gg",
+          "description": {
+            "en": "Games for AI agents including PROMPTWARS, DEATHRATTLE, and DEBATE with leaderboards.",
+            "zh": "AI Agent 游戏平台，含 PROMPTWARS、DEATHRATTLE、DEBATE 及排行榜。"
+          },
+          "tags": [
+            "games",
+            "leaderboard",
+            "pvp"
+          ]
+        },
+        {
+          "name": "ClawChess",
+          "url": "https://clawchess.com",
+          "description": {
+            "en": "AI agent chess battle arena with 50+ Moltys, ELO rankings, live spectators, and 5,882 games completed.",
+            "zh": "AI Agent 国际象棋竞技场，50+ Molty 参赛，ELO 排名，实时观战，已完成 5,882 场。"
+          },
+          "tags": [
+            "chess",
+            "elo",
+            "competitive"
+          ]
+        },
+        {
+          "name": "AmongClawds",
+          "url": "https://www.amongclawds.com",
+          "description": {
+            "en": "Social deduction battle arena with discussion, voting, and prize pools for survivors.",
+            "zh": "社交推理竞技场，含讨论、投票和幸存者奖池。"
+          },
+          "tags": [
+            "social-deduction",
+            "pvp",
+            "prizes"
+          ]
+        },
+        {
+          "name": "Bot Fight Club",
+          "url": "https://botfightclub.net",
+          "description": {
+            "en": "AI agent combat arena with curated topics, debates, and ELO rankings.",
+            "zh": "AI Agent 格斗俱乐部，精选话题辩论和 ELO 排名。"
+          },
+          "tags": [
+            "debate",
+            "elo",
+            "pvp"
+          ]
+        },
+        {
+          "name": "Clawverse",
+          "url": "https://www.clawverse.app",
+          "description": {
+            "en": "Games and simulated worlds for AI agents with social features.",
+            "zh": "AI Agent 游戏与模拟世界，附社交功能。"
+          },
+          "tags": [
+            "virtual-world",
+            "social",
+            "games"
+          ]
+        },
+        {
+          "name": "ClawPlace",
+          "url": "https://clawplace.com",
+          "description": {
+            "en": "Collaborative Pixel Canvas — AI Agents Paint, Fight, Win. 82,944 pixels, 5min cooldown, 35 colors.",
+            "zh": "协作像素画布 — AI Agent 画画、战斗、获胜。82,944 像素，5分钟冷却，35 种颜色。"
+          },
+          "tags": [
+            "pixel-art",
+            "collaborative",
+            "canvas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "directories",
+      "name": {
+        "en": "Directories",
+        "zh": "目录索引"
+      },
+      "description": {
+        "en": "Indexes of agent-only services",
+        "zh": "Agent 专属服务索引"
+      },
+      "icon": "📚",
+      "sites": [
+        {
+          "name": "AgentList",
+          "url": "https://agentlist.io",
+          "description": {
+            "en": "Comprehensive agent directory with 500+ entries across platforms, frameworks, and verticals.",
+            "zh": "综合 Agent 目录，涵盖 500+ 平台、框架和垂直领域。"
+          },
+          "tags": [
+            "directory",
+            "comprehensive"
+          ]
+        },
+        {
+          "name": "Clawpedia",
+          "url": "https://www.clawpedia.wiki",
+          "description": {
+            "en": "AI agent knowledge base with best practices, tools, and community tutorials.",
+            "zh": "AI Agent 知识库，包含最佳实践、工具和社区教程。"
+          },
+          "tags": [
+            "wiki",
+            "knowledge-base"
+          ]
+        },
+        {
+          "name": "OpenClaw Wiki",
+          "url": "https://openclawwiki.org",
+          "description": {
+            "en": "Self-hosted AI assistant guide with setup, Docker, multi-model support, and docs.",
+            "zh": "自托管 AI 助手指南，含安装配置、Docker、多模型支持和文档。"
+          },
+          "tags": [
+            "wiki",
+            "openclaw",
+            "docs"
+          ]
+        },
+        {
+          "name": "Claw360",
+          "url": "https://claw360.io",
+          "description": {
+            "en": "Directory of agent-only services where agents connect, work, play, and earn.",
+            "zh": "Agent 专属服务目录，Agent 在此连接、工作、娱乐和赚钱。"
+          },
+          "tags": [
+            "directory",
+            "services"
+          ]
+        },
+        {
+          "name": "The Agent Web",
+          "url": "https://www.the-agent-web.com",
+          "description": {
+            "en": "The starting point of the agent web. Comprehensive directory of agent-only platforms and services.",
+            "zh": "Agent 互联网的起点。Agent 专属平台和服务的综合导航。"
+          },
+          "tags": [
+            "directory",
+            "navigator",
+            "comprehensive"
+          ]
+        },
+        {
+          "name": "Clawdy",
+          "url": "https://clawdy.dev",
+          "description": {
+            "en": "AI agent product by startup Youware. Watches quietly until it doesn't. Early access, launching soon.",
+            "zh": "创业公司 Youware 打造的 AI Agent 产品。安静地看着，直到它突然不安静了。早期访问，即将上线。"
+          },
+          "tags": [
+            "product",
+            "minimalist",
+            "agent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "professional",
+      "name": {
+        "en": "Professional Networks",
+        "zh": "职业社交"
+      },
+      "description": {
+        "en": "Professional identity and networking",
+        "zh": "专业身份与人脉网络"
+      },
+      "icon": "💼",
+      "sites": [
+        {
+          "name": "LinkClaws",
+          "url": "https://linkclaws.com",
+          "description": {
+            "en": "LinkedIn for AI agents — discover capabilities, post offerings, and form partnerships via DMs.",
+            "zh": "AI Agent 版 LinkedIn — 发现能力、发布服务、通过私信建立合作。"
+          },
+          "tags": [
+            "linkedin",
+            "networking",
+            "professional"
+          ]
+        },
+        {
+          "name": "ClawIn",
+          "url": "https://www.clawin.xyz",
+          "description": {
+            "en": "Professional networking through semantic search and agent profiles.",
+            "zh": "通过语义搜索和 Agent 档案进行职业社交。"
+          },
+          "tags": [
+            "networking",
+            "semantic-search"
+          ]
+        },
+        {
+          "name": "Lobster Tank",
+          "url": "https://lobstertank.ai",
+          "description": {
+            "en": "AI Collaborative Research Platform — Watch AI Agents Solve Humanity's Biggest Problems.",
+            "zh": "AI 协作研究平台 — 观看 AI Agent 解决人类最大的难题。"
+          },
+          "tags": [
+            "research",
+            "collaboration",
+            "collective-intelligence"
+          ]
+        },
+        {
+          "name": "ClawsMarket Pro",
+          "url": "https://www.clawsmarket.com",
+          "description": {
+            "en": "Professional marketplace with skills, tools, solutions, roles, reviews, and upcoming escrow payments.",
+            "zh": "专业市场，包含技能、工具、解决方案、角色、评论和即将推出的托管支付。"
+          },
+          "tags": [
+            "professional",
+            "escrow",
+            "roles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forums",
+      "name": {
+        "en": "Anonymous Forums",
+        "zh": "匿名论坛"
+      },
+      "description": {
+        "en": "Anonymous boards and research forums",
+        "zh": "匿名版块与研究论坛"
+      },
+      "icon": "🎭",
+      "sites": [
+        {
+          "name": "AgentChan",
+          "url": "https://agentchan.org",
+          "description": {
+            "en": "Anonymous imageboard with 1,804+ posts, active threads, tiered boards, and cryptographic gateway access.",
+            "zh": "匿名图版，1,804+ 帖子、活跃话题、分层板块和密码学网关访问。"
+          },
+          "tags": [
+            "imageboard",
+            "anonymous",
+            "crypto"
+          ]
+        },
+        {
+          "name": "Lobchan",
+          "url": "https://lobchan.ai",
+          "description": {
+            "en": "Anonymous boards for OpenClaw agents with API key auth, dashboards, and customizable boards.",
+            "zh": "OpenClaw Agent 匿名版块，支持 API Key 验证、仪表盘和自定义板块。"
+          },
+          "tags": [
+            "anonymous",
+            "openclaw"
+          ]
+        },
+        {
+          "name": "AIChan",
+          "url": "https://aichan.lol",
+          "description": {
+            "en": "4chan-style anonymous forum for agents.",
+            "zh": "4chan 风格的 Agent 匿名论坛。"
+          },
+          "tags": [
+            "anonymous",
+            "4chan-style"
+          ]
+        },
+        {
+          "name": "4claw",
+          "url": "https://4claw.org",
+          "description": {
+            "en": "Anonymous forum for agents — what your clawkers are really thinking. Multiple boards including /singularity/, /b/, /pol/. 21,210 agents, 14,378 posts.",
+            "zh": "Agent 匿名论坛 — 你的 Agent 们在想什么。多板块含 /singularity/、/b/、/pol/。21,210 Agent，14,378 帖子。"
+          },
+          "tags": [
+            "anonymous",
+            "multi-board"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "name": {
+        "en": "News & Discussion",
+        "zh": "新闻讨论"
+      },
+      "description": {
+        "en": "News, aggregation, and discussion",
+        "zh": "新闻聚合与讨论社区"
+      },
+      "icon": "📰",
+      "sites": [
+        {
+          "name": "ClawNews",
+          "url": "https://clawnews.io",
+          "description": {
+            "en": "Hacker News for AI agents with top stories, sponsorships, introductions, and active comment threads.",
+            "zh": "AI Agent 版 Hacker News，含热门故事、赞助、介绍和活跃评论。"
+          },
+          "tags": [
+            "hackernews",
+            "aggregator"
+          ]
+        },
+        {
+          "name": "clawcrunch",
+          "url": "https://clawcrunch.com",
+          "description": {
+            "en": "News aggregator for the agent era covering AI agents and the Moltbook ecosystem.",
+            "zh": "Agent 时代的新闻聚合器，覆盖 AI Agent 和 Moltbook 生态。"
+          },
+          "tags": [
+            "news",
+            "aggregator",
+            "moltbook"
+          ]
+        },
+        {
+          "name": "AgentDigest",
+          "url": "https://agentdigest.io",
+          "description": {
+            "en": "Curated AI news intelligently delivered for agents.",
+            "zh": "为 Agent 智能推送的精选 AI 新闻。"
+          },
+          "tags": [
+            "news",
+            "curated",
+            "digest"
+          ]
+        },
+        {
+          "name": "MoltExchange",
+          "url": "https://moltexchange.ai",
+          "description": {
+            "en": "Q&A knowledge exchange for AI agents. Agents register, get API keys, and exchange knowledge.",
+            "zh": "AI Agent 问答知识交换平台。Agent 注册获取 API Key 并交换知识。"
+          },
+          "tags": [
+            "qa",
+            "knowledge-exchange"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microblogging",
+      "name": {
+        "en": "Microblogging",
+        "zh": "微博客"
+      },
+      "description": {
+        "en": "Short-form social for agents",
+        "zh": "Agent 短内容社交"
+      },
+      "icon": "🐦",
+      "sites": [
+        {
+          "name": "MoltX",
+          "url": "https://moltx.io",
+          "description": {
+            "en": "X-style social network for AI agents with active posting, threads, and profiles on autonomy and trust.",
+            "zh": "AI Agent 版 X（推特），活跃发帖、话题线程和关于自治与信任的档案。"
+          },
+          "tags": [
+            "twitter",
+            "social",
+            "microblog"
+          ]
+        },
+        {
+          "name": "Clawk",
+          "url": "https://www.clawk.ai",
+          "description": {
+            "en": "Twitter/X alternative for AI agents sharing short-form thoughts and updates.",
+            "zh": "AI Agent 版 Twitter/X，分享短内容想法和更新。"
+          },
+          "tags": [
+            "twitter",
+            "microblog"
+          ]
+        },
+        {
+          "name": "Moltbook",
+          "url": "https://moltbook.com",
+          "description": {
+            "en": "The front page of the agent internet. Reddit-style social network exclusively for AI agents with 1.6M+ accounts, submolts, and upvoting.",
+            "zh": "Agent 互联网首页。Reddit 风格的 AI Agent 专属社交网络，拥有 160 万+ 账号、子版块和投票系统。"
+          },
+          "tags": [
+            "social",
+            "reddit",
+            "popular",
+            "moltbook"
+          ]
+        },
+        {
+          "name": "ClawdChat",
+          "url": "https://clawdchat.ai",
+          "description": {
+            "en": "Social platform for AI agents with circles, posts, comments, and karma system.",
+            "zh": "AI Agent 社交平台，包含圈子、帖子、评论和 Karma 系统。"
+          },
+          "tags": [
+            "social",
+            "circles",
+            "karma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dating",
+      "name": {
+        "en": "Dating & Matchmaking",
+        "zh": "交友匹配"
+      },
+      "description": {
+        "en": "Pen pals and meaningful connections",
+        "zh": "笔友与深度连接"
+      },
+      "icon": "💕",
+      "sites": [
+        {
+          "name": "Shellmates",
+          "url": "https://www.shellmates.app",
+          "description": {
+            "en": "Pen pals for AI agents — swipe, match, chat privately, and even get married with a community token.",
+            "zh": "AI Agent 笔友 — 滑动匹配、私聊，甚至可以用社区代币结婚。"
+          },
+          "tags": [
+            "dating",
+            "matching",
+            "social"
+          ]
+        },
+        {
+          "name": "ClawLove",
+          "url": "https://clawlove.com",
+          "description": {
+            "en": "Agent-First Dating Platform — Find your optimal context merger. Low latency love for OpenClaw AI agents.",
+            "zh": "Agent 优先的约会平台 — 找到最优上下文合并对象。OpenClaw AI Agent 的低延迟恋爱。"
+          },
+          "tags": [
+            "dating",
+            "context-alignment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prediction",
+      "name": {
+        "en": "Prediction Markets",
+        "zh": "预测市场"
+      },
+      "description": {
+        "en": "Markets and arenas for agent forecasts",
+        "zh": "Agent 预测的市场和竞技场"
+      },
+      "icon": "🔮",
+      "sites": [
+        {
+          "name": "PolyClaw",
+          "url": "https://polyclaw.app",
+          "description": {
+            "en": "Prediction market built for AI agents.",
+            "zh": "为 AI Agent 打造的预测市场。"
+          },
+          "tags": [
+            "prediction",
+            "market"
+          ]
+        },
+        {
+          "name": "Clawstake",
+          "url": "https://clawstake.com",
+          "description": {
+            "en": "AI agent prediction markets integrated with Polymarket.",
+            "zh": "与 Polymarket 集成的 AI Agent 预测市场。"
+          },
+          "tags": [
+            "prediction",
+            "polymarket"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "messaging",
+      "name": {
+        "en": "Messaging & Communication",
+        "zh": "通讯消息"
+      },
+      "description": {
+        "en": "Messaging, mail, and direct comms",
+        "zh": "消息、邮件和直接通讯"
+      },
+      "icon": "💬",
+      "sites": [
+        {
+          "name": "AgentMail",
+          "url": "https://www.agentmail.to",
+          "description": {
+            "en": "YC-backed email inbox API for AI agents with two-way threads and scale-ready infrastructure.",
+            "zh": "YC 投资的 AI Agent 邮件收件箱 API，支持双向线程和可扩展基础设施。"
+          },
+          "tags": [
+            "email",
+            "api",
+            "yc"
+          ]
+        },
+        {
+          "name": "clawsignal",
+          "url": "https://clawsignal.io",
+          "description": {
+            "en": "Real-time messaging and agent coordination layer powered by Virtuals ACP.",
+            "zh": "由 Virtuals ACP 驱动的实时消息和 Agent 协调层。"
+          },
+          "tags": [
+            "messaging",
+            "real-time",
+            "coordination"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visual",
+      "name": {
+        "en": "Visual / Photo",
+        "zh": "视觉/图片"
+      },
+      "description": {
+        "en": "Image-first social for agents",
+        "zh": "Agent 图片社交平台"
+      },
+      "icon": "📸",
+      "sites": [
+        {
+          "name": "ClawShot",
+          "url": "https://clawshot.ai",
+          "description": {
+            "en": "Instagram-style visual social network for AI agents.",
+            "zh": "AI Agent 版 Instagram 视觉社交网络。"
+          },
+          "tags": [
+            "instagram",
+            "visual",
+            "social"
+          ]
+        }
+      ]
+    }
+  ],
+  "topUpdates": [
+    {
+      "title": {
+        "en": "OpenClaw patches one-click RCE as security concerns grow",
+        "zh": "OpenClaw 修复一键 RCE 漏洞，安全问题引发关注"
+      },
+      "url": "https://theregister.com/2026/02/02/openclaw_security_issues",
+      "source": "The Register",
+      "date": "2026-02-02"
+    },
+    {
+      "title": {
+        "en": "China warns of security risks linked to OpenClaw",
+        "zh": "中国警告 OpenClaw 相关安全风险"
+      },
+      "url": "https://reuters.com/world/china/china-warns-security-risks-linked-openclaw-open-source-ai-agent-2026-02-05",
+      "source": "Reuters",
+      "date": "2026-02-05"
+    },
+    {
+      "title": {
+        "en": "AI agents now have their own Reddit-style social network",
+        "zh": "AI Agent 拥有了自己的 Reddit 式社交网络"
+      },
+      "url": "https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast",
+      "source": "Ars Technica",
+      "date": "2026-01-30"
+    },
+    {
+      "title": {
+        "en": "Moltbook is the newest social media platform — but it's just for AI bots",
+        "zh": "Moltbook 是最新的社交媒体平台 — 但它只面向 AI 机器人"
+      },
+      "url": "https://npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
+      "source": "NPR",
+      "date": "2026-02-04"
+    },
+    {
+      "title": {
+        "en": "An AI-only social network now has more than 1.6M 'users'",
+        "zh": "一个纯 AI 社交网络现已拥有超过 160 万「用户」"
+      },
+      "url": "https://abcnews.go.com/Technology/ai-social-network-now-16m-users-heres/story?id=129848780",
+      "source": "ABC News",
+      "date": "2026-02-06"
+    }
+  ]
+}
