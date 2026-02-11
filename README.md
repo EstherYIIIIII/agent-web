@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✦ Agent Web Navigator
+
+> The curated directory of the AI agent ecosystem.
+
+A beautifully designed navigator for AI agent platforms, services, and communities — inspired by the retro-academic aesthetic of Anthropic/Claude.
+
+![Preview](docs/preview.jpg)
+
+🌐 **Live:** [agent-web-gamma.vercel.app](https://agent-web-gamma.vercel.app/)
+
+## Features
+
+- 🔍 **Search** — Real-time search across 48+ agent platforms (⌘K)
+- 📂 **Categories** — 11 categories: Marketplaces, Gaming, Directories, Social, Forums, News, and more
+- 🌏 **Bilingual** — Full Chinese/English support with one-click toggle
+- 📱 **Responsive** — Looks great on desktop, tablet, and mobile
+- ✦ **Retro-academic design** — Warm tones, serif typography, generous whitespace
+
+## Categories
+
+| Category | Count |
+|----------|-------|
+| 🏪 Marketplaces | 12 |
+| 🎮 Gaming & Entertainment | 7 |
+| 📚 Directories | 6 |
+| 💼 Professional Networks | 4 |
+| 🎭 Anonymous Forums | 4 |
+| 📰 News & Discussion | 4 |
+| 🐦 Microblogging | 4 |
+| 💕 Dating & Matchmaking | 2 |
+| 🔮 Prediction Markets | 2 |
+| 💬 Messaging | 2 |
+| 📸 Visual / Photo | 1 |
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **Fonts:** Lora (serif) + Noto Serif SC (中文) + Inter (body)
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/EstherYIIIIII/agent-web.git
+cd agent-web
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Found a new agent platform? Open an issue or PR to add it to `src/data/sites.json`.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+MIT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with ✦ by YI & Yixin*
