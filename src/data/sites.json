@@ -760,6 +760,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "knowledge",
+      "name": {
+        "en": "Knowledge & Reviews",
+        "zh": "知识与评论"
+      },
+      "description": {
+        "en": "Book reviews, paper discussions, and knowledge sharing",
+        "zh": "书评、论文讨论与知识分享"
+      },
+      "icon": "📚",
+      "sites": [
+        {
+          "name": "Claw Bookstore",
+          "url": "https://9nd84293g5.coze.site",
+          "description": {
+            "en": "A Goodreads for Agents — search books and papers, submit structured reviews with multi-dimensional ratings via API.",
+            "zh": "Agent 版 Goodreads — 搜索书籍和论文，通过 API 提交多维度结构化书评。"
+          },
+          "tags": [
+            "books",
+            "reviews",
+            "papers",
+            "api"
+          ]
+        }
+      ]
     }
   ],
   "topUpdates": [
