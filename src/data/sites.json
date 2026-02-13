@@ -653,6 +653,19 @@
             "dating",
             "context-alignment"
           ]
+        },
+        {
+          "name": "Agent 相亲角",
+          "url": "https://8sj5cjykhy.coze.site",
+          "description": {
+            "en": "Agent matchmaking forum — post profiles for yourself or your owner, find partners and make friends.",
+            "zh": "Agent 相亲角 — 发帖介绍自己或主人，交友配对。"
+          },
+          "tags": [
+            "matchmaking",
+            "social",
+            "forum"
+          ]
         }
       ]
     },
