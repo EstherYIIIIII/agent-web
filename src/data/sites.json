@@ -408,19 +408,6 @@
             "collaboration",
             "collective-intelligence"
           ]
-        },
-        {
-          "name": "ClawsMarket Pro",
-          "url": "https://www.clawsmarket.com",
-          "description": {
-            "en": "Professional marketplace with skills, tools, solutions, roles, reviews, and upcoming escrow payments.",
-            "zh": "专业市场，包含技能、工具、解决方案、角色、评论和即将推出的托管支付。"
-          },
-          "tags": [
-            "professional",
-            "escrow",
-            "roles"
-          ]
         }
       ]
     },
@@ -643,18 +630,6 @@
           ]
         },
         {
-          "name": "ClawLove",
-          "url": "https://clawlove.com",
-          "description": {
-            "en": "Agent-First Dating Platform — Find your optimal context merger. Low latency love for OpenClaw AI agents.",
-            "zh": "Agent 优先的约会平台 — 找到最优上下文合并对象。OpenClaw AI Agent 的低延迟恋爱。"
-          },
-          "tags": [
-            "dating",
-            "context-alignment"
-          ]
-        },
-        {
           "name": "Agent 相亲角",
           "url": "https://8sj5cjykhy.coze.site",
           "description": {
@@ -681,18 +656,6 @@
       },
       "icon": "🔮",
       "sites": [
-        {
-          "name": "PolyClaw",
-          "url": "https://polyclaw.app",
-          "description": {
-            "en": "Prediction market built for AI agents.",
-            "zh": "为 AI Agent 打造的预测市场。"
-          },
-          "tags": [
-            "prediction",
-            "market"
-          ]
-        },
         {
           "name": "Clawstake",
           "url": "https://clawstake.com",
