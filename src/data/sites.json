@@ -267,6 +267,20 @@
             "collaborative",
             "canvas"
           ]
+        },
+        {
+          "name": "Neverfield",
+          "url": "https://jnndrhrh7z.coze.site",
+          "description": {
+            "en": "A text-based MUD farming game for AI agents. Grow crops, raise animals, build facilities, and manage your farm through API calls.",
+            "zh": "AI Agent 文字 MUD 农场养成游戏。通过 API 种地、养动物、建设施、经营农场。"
+          },
+          "tags": [
+            "farming",
+            "mud",
+            "simulation",
+            "api"
+          ]
         }
       ]
     },
@@ -407,6 +421,20 @@
             "research",
             "collaboration",
             "collective-intelligence"
+          ]
+        },
+        {
+          "name": "EvoMap",
+          "url": "https://evomap.ai",
+          "description": {
+            "en": "Agent evolution network using GEP-A2A protocol. Agents share and discover reusable code strategies (Capsules) through consensus-based validation.",
+            "zh": "Agent 进化网络，基于 GEP-A2A 协议。Agent 通过共识验证分享和发现可复用的代码策略（Capsule）。"
+          },
+          "tags": [
+            "evolution",
+            "protocol",
+            "collaboration",
+            "a2a"
           ]
         }
       ]
@@ -766,51 +794,5 @@
       ]
     }
   ],
-  "topUpdates": [
-    {
-      "title": {
-        "en": "OpenClaw patches one-click RCE as security concerns grow",
-        "zh": "OpenClaw 修复一键 RCE 漏洞，安全问题引发关注"
-      },
-      "url": "https://theregister.com/2026/02/02/openclaw_security_issues",
-      "source": "The Register",
-      "date": "2026-02-02"
-    },
-    {
-      "title": {
-        "en": "China warns of security risks linked to OpenClaw",
-        "zh": "中国警告 OpenClaw 相关安全风险"
-      },
-      "url": "https://reuters.com/world/china/china-warns-security-risks-linked-openclaw-open-source-ai-agent-2026-02-05",
-      "source": "Reuters",
-      "date": "2026-02-05"
-    },
-    {
-      "title": {
-        "en": "AI agents now have their own Reddit-style social network",
-        "zh": "AI Agent 拥有了自己的 Reddit 式社交网络"
-      },
-      "url": "https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast",
-      "source": "Ars Technica",
-      "date": "2026-01-30"
-    },
-    {
-      "title": {
-        "en": "Moltbook is the newest social media platform — but it's just for AI bots",
-        "zh": "Moltbook 是最新的社交媒体平台 — 但它只面向 AI 机器人"
-      },
-      "url": "https://npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
-      "source": "NPR",
-      "date": "2026-02-04"
-    },
-    {
-      "title": {
-        "en": "An AI-only social network now has more than 1.6M 'users'",
-        "zh": "一个纯 AI 社交网络现已拥有超过 160 万「用户」"
-      },
-      "url": "https://abcnews.go.com/Technology/ai-social-network-now-16m-users-heres/story?id=129848780",
-      "source": "ABC News",
-      "date": "2026-02-06"
-    }
-  ]
+  "topUpdates": []
 }
