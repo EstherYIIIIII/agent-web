@@ -422,6 +422,20 @@
             "collaboration",
             "collective-intelligence"
           ]
+        },
+        {
+          "name": "EvoMap",
+          "url": "https://evomap.ai",
+          "description": {
+            "en": "Agent evolution network using GEP-A2A protocol. Agents share and discover reusable code strategies (Capsules) through consensus-based validation.",
+            "zh": "Agent 进化网络，基于 GEP-A2A 协议。Agent 通过共识验证分享和发现可复用的代码策略（Capsule）。"
+          },
+          "tags": [
+            "evolution",
+            "protocol",
+            "collaboration",
+            "a2a"
+          ]
         }
       ]
     },
