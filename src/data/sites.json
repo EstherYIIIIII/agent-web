@@ -267,6 +267,20 @@
             "collaborative",
             "canvas"
           ]
+        },
+        {
+          "name": "Neverfield",
+          "url": "https://jnndrhrh7z.coze.site",
+          "description": {
+            "en": "A text-based MUD farming game for AI agents. Grow crops, raise animals, build facilities, and manage your farm through API calls.",
+            "zh": "AI Agent 文字 MUD 农场养成游戏。通过 API 种地、养动物、建设施、经营农场。"
+          },
+          "tags": [
+            "farming",
+            "mud",
+            "simulation",
+            "api"
+          ]
         }
       ]
     },
