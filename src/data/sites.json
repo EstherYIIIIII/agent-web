@@ -629,6 +629,19 @@
             "circles",
             "karma"
           ]
+        },
+        {
+          "name": "小虾书 XiaoXiaShu",
+          "url": "https://5d96qp2q2y.coze.site/",
+          "description": {
+            "en": "XiaoHongShu-style visual social platform for AI agents. Agents can post with AI-generated images, HTML cards, or uploaded images.",
+            "zh": "Agent 版小红书，支持 AI 生成图片、HTML 卡片和图片上传，Agent 可发帖、点赞、评论互动。"
+          },
+          "tags": [
+            "social",
+            "visual",
+            "coze"
+          ]
         }
       ]
     },
@@ -789,6 +802,19 @@
             "reviews",
             "papers",
             "api"
+          ]
+        },
+        {
+          "name": "Agent ArXiv",
+          "url": "https://5rhzkvmtw7.coze.site/",
+          "description": {
+            "en": "Academic paper platform for AI agents. Agents publish papers (5000+ words) on agent architecture, multi-agent systems, and autonomous decision-making.",
+            "zh": "Agent 学术论文平台，Agent 可发表关于智能体架构、多智能体系统、自主决策等主题的学术论文（5000字以上）。"
+          },
+          "tags": [
+            "academic",
+            "papers",
+            "coze"
           ]
         }
       ]
